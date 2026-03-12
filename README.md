@@ -1,10 +1,10 @@
-# 🚗 Car Price Prediction using Machine Learning
+# Car Price Prediction using Machine Learning
 
 > A college-level Data Science mini project that builds a **Linear Regression model** to predict car prices based on technical and physical specifications.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
@@ -20,7 +20,7 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 The automobile industry is highly competitive, and pricing a car correctly is a critical business decision. This project uses **supervised machine learning** to predict the selling price of a car based on its features.
 
@@ -33,7 +33,7 @@ The automobile industry is highly competitive, and pricing a car correctly is a 
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **File:** `CarPrice_Assignment.csv`
 
@@ -57,7 +57,7 @@ The dataset contains information about various car models including their physic
 | `peakrpm` | Peak revolutions per minute |
 | `citympg` | Miles per gallon in city driving |
 | `highwaympg` | Miles per gallon on highway |
-| `price` | ⭐ **Target variable** — car price in USD |
+| `price` |  **Target variable** — car price in USD |
 
 ### Categorical Columns (10)
 
@@ -76,14 +76,14 @@ The dataset contains information about various car models including their physic
 
 ### Dataset Notes
 
-- ✅ No missing values
-- ✅ No duplicate rows
-- ⚙️ Feature engineering applied: car brand extracted from `CarName`
-- ⚙️ Brand name typos corrected (e.g. `maxda` → `mazda`, `vw` → `volkswagen`)
+-  No missing values
+-  No duplicate rows
+-  Feature engineering applied: car brand extracted from `CarName`
+-  Brand name typos corrected (e.g. `maxda` → `mazda`, `vw` → `volkswagen`)
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 car-price-prediction/
@@ -95,7 +95,7 @@ car-price-prediction/
 
 ---
 
-## 📓 Notebook Walkthrough
+##  Notebook Walkthrough
 
 The notebook follows a structured, step-by-step format aligned with the academic evaluation criteria:
 
@@ -124,7 +124,7 @@ The notebook follows a structured, step-by-step format aligned with the academic
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Library | Version | Purpose |
 |---|---|---|
@@ -137,7 +137,7 @@ The notebook follows a structured, step-by-step format aligned with the academic
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Option 1 — Google Colab (Recommended)
 
@@ -168,7 +168,7 @@ Navigate to `Car_Price_Prediction_Project.ipynb` in the Jupyter interface and ru
 
 ---
 
-## 📊 Results & Evaluation
+##  Results & Evaluation
 
 The model is evaluated using four standard regression metrics:
 
@@ -183,18 +183,18 @@ The model is evaluated using four standard regression metrics:
 
 ### Visualizations Generated
 
-- 📊 Price Distribution (histogram + boxplot)
-- 🔥 Correlation Heatmap (numerical features)
-- 🏷️ Average Price by Brand (bar chart)
-- 📦 Price by Body Style and Fuel Type (boxplots)
-- 🔵 Engine Size vs Price colored by Horsepower (scatter)
-- 🎯 Actual vs Predicted Prices (with ideal line)
-- 📉 Residuals vs Predicted + Residual Distribution
-- 📏 Top 15 Features by Regression Coefficient
+-  Price Distribution (histogram + boxplot)
+-  Correlation Heatmap (numerical features)
+-  Average Price by Brand (bar chart)
+-  Price by Body Style and Fuel Type (boxplots)
+-  Engine Size vs Price colored by Horsepower (scatter)
+-  Actual vs Predicted Prices (with ideal line)
+-  Residuals vs Predicted + Residual Distribution
+-  Top 15 Features by Regression Coefficient
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 1. **Engine size, curb weight, and horsepower** are the strongest positive predictors of car price — bigger, more powerful cars cost more.
 
@@ -208,7 +208,7 @@ The model is evaluated using four standard regression metrics:
 
 ---
 
-## ✅ Best Practices Applied
+##  Best Practices Applied
 
 | Practice | Details |
 |---|---|
@@ -222,7 +222,7 @@ The model is evaluated using four standard regression metrics:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Apply **log transformation** to `price` to reduce right skewness
 - Use **One-Hot Encoding** instead of Label Encoding for nominal features
@@ -233,7 +233,7 @@ The model is evaluated using four standard regression metrics:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Project Type:** College Data Science Mini Project  
 **Algorithm:** Linear Regression  
@@ -242,3 +242,4 @@ The model is evaluated using four standard regression metrics:
 ---
 
 *"All models are wrong, but some are useful." — George Box*
+
